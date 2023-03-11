@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="calculator">
+        <div class="row" >
+            <div class="display">
+                <input id="txt" type="text" disabled>
+            </div>
+        </div>
+        <div class="row">
+            <div class="cell"><input type="button" value="AC" onclick="clk('AC')"></div>
+            <div class="cell"><input type="button" value="C" onclick="clk('C')"></div>
+            <div class="cell"><input type="button" value="" onclick="clk('')"></div>
+            <div class="cell"><input type="button" value="/" onclick="clk('/')"></div>
+        </div>
+        <div class="row">
+            <div class="cell"><input type="button" value="7" onclick="clk('7')"></div>
+            <div class="cell"><input type="button" value="8" onclick="clk('8')"></div>
+            <div class="cell"><input type="button" value="9" onclick="clk('9')"></div>
+            <div class="cell"><input type="button" value="*" onclick="clk('*')"></div>
+        </div>
+        <div class="row">
+            <div class="cell"><input type="button" value="4" onclick="clk('4')"></div>
+            <div class="cell"><input type="button" value="5" onclick="clk('5')"></div>
+            <div class="cell"><input type="button" value="6" onclick="clk('6')"></div>
+            <div class="cell"><input type="button" value="-" onclick="clk('-')"></div>
+        </div>
+        <div class="row">
+            <div class="cell"><input type="button" value="1" onclick="clk('1')"></div>
+            <div class="cell"><input type="button" value="2" onclick="clk('2')"></div>
+            <div class="cell"><input type="button" value="3" onclick="clk('3')"></div>
+            <div class="cell"><input type="button" value="+" onclick="clk('+')"></div>
+        </div>
+        <div class="row">
+            <div class="cell"><input type="button" value="00" onclick="clk('00')"></div>
+            <div class="cell"><input type="button" value="0" onclick="clk('0')"></div>
+            <div class="cell"><input type="button" value="," onclick="clk('.')"></div>
+            <div class="cell"><input type="button" value="=" onclick="clk('=')"></div>
+        </div>
+    </div>
+    <script src="sheet.js"></script>
+</body>
+</html>

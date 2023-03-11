@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body{
+    background: linear-gradient(#55c67d, #91e5c1);
+    height: 90%;
+}
+html{
+    height: 100%;
+}
+#back{
+    width: 90%;
+    max-width: 600px;;
+    background: url(shire.jpg),rgba(0,0,0,0.7);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 7px 10px #000000;
+}
+h1{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 65px;
+}
+#buttons{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+img:hover{
+    opacity: 0.6;
+}
+img{
+    opacity: 1;
+}

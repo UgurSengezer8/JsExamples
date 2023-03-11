@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game">
+        <h1>Tic Tac Toe</h1>
+        <div class="grids">
+            <div class="row">
+                <div class="grid" id="sira1" onclick="tikla(0,0,'sira1')"></div>
+                <div class="grid" id="sira2" onclick="tikla(0,1,'sira2')"></div>
+                <div class="grid" id="sira3" onclick="tikla(0,2,'sira3')"></div>
+            </div>
+            <div class="row">
+                <div class="grid" id="sira4" onclick="tikla(1,0,'sira4')"></div>
+                <div class="grid" id="sira5" onclick="tikla(1,1,'sira5')"></div>
+                <div class="grid" id="sira6" onclick="tikla(1,2,'sira6')"></div>
+            </div>
+            <div class="row" >
+                <div class="grid" id="sira7" onclick="tikla(2,0,'sira7')"></div>
+                <div class="grid" id="sira8" onclick="tikla(2,1,'sira8')"></div>
+                <div class="grid" id="sira9" onclick="tikla(2,2,'sira9')"></div>
+            </div>
+
+        </div>
+        
+        
+        <div><h2 id="turn">X'Turns</p></div>
+        <div style="width: 45%;margin: 0px auto;;display: flex;justify-content: space-between;">
+            <div><h2 id="xSkor">X:0</h3></div>
+            <div><h2 id="beraberS">0</h3></div>
+            <div><h2 id="oSkor">O:0</h3></div>
+        </div>
+        <div style="display: flex;justify-content: center;">
+            <div id="reset" onclick="reset()"><h2 style="margin-top: 5px;">reset</h2></div>
+        </div>
+    </div>
+    <script src="sheet.js"></script>
+</body>
+</html>
